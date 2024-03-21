@@ -33,7 +33,7 @@ CGI and Common HTTP Features
 <h2>Installation Steps</h2>
 
 <p>
-<img ![image](https://github.com/Baljeet209/Baljeet/osticket-prereqs/assets/163678715/008e609e-67f6-4c9a-988d-94c77b3610fd)
+<img ![image](https://github.com/Baljeet209/osticket-prereqs/assets/163678715/0963e660-8b9f-404c-acad-fa0ff7313ddb)
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
