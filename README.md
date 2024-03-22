@@ -29,10 +29,9 @@ Open control panel > Programs > Windows features > Internet information services
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<img src="https://imgur.com/BCMogcC)</p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next Download and install PHP mananger for IIS,Rewrite module and PHP 7.3.8 and create a folder named PHP into the C:\ unzip the PHP 7.3.8 contents into the PHP folder, Download and install C++ Redistributable and then Download and install MySQL > Typical installation  > Launch config wizard > Standard Config > Set the root password to Password1 > Open IIS as admin > Register PHP > Restart IIS > Download and install osTicket > Extrat and copy upload folder to C:\inetpub\wwwroot > rename upload folder to osTicket > Reload IIS >Go to sites > Default > osTicket > on the right click Browse *.80 > 
 </p>
 <br />
 
