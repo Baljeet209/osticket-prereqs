@@ -29,7 +29,8 @@ Open control panel > Programs > Windows features > Internet information services
 <br />
 
 <p>
-<img src="https://imgur.com/BCMogcC)</p>
+<img src="https://imgur.com/BCMogcC
+ /p>
 <p>
 Next Download and install PHP mananger for IIS,Rewrite module and PHP 7.3.8 and create a folder named PHP into the C:\ unzip the PHP 7.3.8 contents into the PHP folder, Download and install C++ Redistributable and then Download and install MySQL > Typical installation  > Launch config wizard > Standard Config > Set the root password to Password1 > Open IIS as admin > Register PHP > Restart IIS > Download and install osTicket > Extrat and copy upload folder to C:\inetpub\wwwroot > rename upload folder to osTicket > Reload IIS >Go to sites > Default > osTicket > on the right click Browse *.80 > 
 </p>
