@@ -29,17 +29,20 @@ Open control panel > Programs > Windows features > Internet information services
 <br />
 
 <p>
-<img src="https://imgur.com/BCMogcC
+<img src="https://imgur.com/BCMogcC.png"<
  /p>
 <p>
-Next Download and install PHP mananger for IIS,Rewrite module and PHP 7.3.8 and create a folder named PHP into the C:\ unzip the PHP 7.3.8 contents into the PHP folder, Download and install C++ Redistributable and then Download and install MySQL > Typical installation  > Launch config wizard > Standard Config > Set the root password to Password1 > Open IIS as admin > Register PHP > Restart IIS > Download and install osTicket > Extrat and copy upload folder to C:\inetpub\wwwroot > rename upload folder to osTicket > Reload IIS >Go to sites > Default > osTicket > on the right click Browse *.80 > 
+Next Download and install PHP mananger for IIS,Rewrite module and PHP 7.3.8 and create a folder named PHP into the C:\ unzip the PHP 7.3.8 contents into the PHP folder, Download and install C++ Redistributable and then Download and install MySQL > Typical installation  > Launch config wizard > Standard Config > Set the root password to Password1 > Open IIS as admin > Register PHP > Restart IIS > Download and install osTicket > Extrat and copy upload folder to C:\inetpub\wwwroot > rename upload folder to osTicket > Reload IIS >Go to sites > Default > osTicket > on the right click Browse *.80 > Go to IIS, Sites > Default > osTicket > Click PHP Manager > Enable the following extensions php_imap.dll,php_intl.dll,php_opcache.dll refresh the osTicket site in your browser 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<img src="https://imgur.com/t0XkQc9) 
+  /p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to the C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php folder and rename sampleconfig.php to ost-config.php 
+  Assign permissions ost-config.php in properties > Disable inheritance and Remove all >New permissions > Everyone > All
+  Click continue in browser Name - Helpdesk, Default email create any, > Download and install HeidiSQL > Open and create a new session root/Password1 > connect to session > Create database called osTicket > fill out the sections on the osTicket site MYSQL database: osTicket > MYSQL Username:root > MYSQL Password:Password1 > Click Install now > Browse to your help desk login page http://localhost/osTicket/scp/login.php Final step Delete C:\inetpub\wwwroot\osTicket\setup > Set permissions to READ only in the ost-config.php file 
+  If you see a Congratulions on the site that means you have correctly installed osTicket 
 </p>
 <br />
