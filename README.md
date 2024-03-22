@@ -1,16 +1,4 @@
 # osticket-prereqs
-<p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-</p>
-
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -23,20 +11,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Install / Enable IIS in Windows WITH
-CGI and Common HTTP Features
+- Install/Enable IIS
 - Install Web Platform Installer 
-- Install MySQL, setup username and password
+- Install MySQL,setup username and password 
 - Install C++ Redistributable 
 - Configure permissions and install osTicket
 
 <h2>Installation Steps</h2>
 
 <p>
-<img ![image](https://github.com/Baljeet209/osticket-prereqs/assets/163678715/0963e660-8b9f-404c-acad-fa0ff7313ddb)
-</p>
+<img src="https://i.imgur.com/b7rQD33.png"<
+  /p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Steps to Install and enable IIS 
+Open control panel > Programs > Windows features > Internet information services > World wide web services > Application development features > Check CGI and check all of the common HTTP features > click ok and it will install IIS.Verify that IIS is up and running by going to the loopback address 127.0.0.1 it should look similiar to the picture 
 </p>
 <br />
 
